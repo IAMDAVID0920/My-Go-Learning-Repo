@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	bot_token := "xoxb-4426694404677-4429658202418-uN8MWQKero8V24NLASQ6q8Rc"
-	channel_id := "C04CF194614"
+	bot_token := ""
+	channel_id := ""
 	file_path := "resume.pdf"
 	os.Setenv("SLACK_BOT_TOKEN", bot_token)
 	os.Setenv("CHANNLE_ID", channel_id)
